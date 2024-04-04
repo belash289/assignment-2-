@@ -1,0 +1,45 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    transition: background-color 0.5s ease; /* Smooth background color transition for day/night mode */
+  }
+  
+  /* Button styles for interactivity */
+  button {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  /* Day mode button styling */
+  #dayMode {
+    background-color: #00BFFF; /* Deep Sky Blue for day mode */
+    color: black; /* Text color for readability */
+  }
+  
+  /* Night mode button styling */
+  #nightMode {
+    background-color: #654321; /* Dark brown for night mode */
+    color: white; /* Text color for readability */
+  }
+  
+  /* Styling for hidden elements, used for the answer section */
+  .hidden {
+    display: none;
+  }
+  
+  /* Picture frame styling for image hover effect */
+  #pictureFrame {
+    max-width: 500px;
+    border: 1px solid #ccc; /* Light grey border */
+    padding: 10px;
+    text-align: center; /* Centering the image within the frame */
+  }
+  
+  /* Responsive image styling */
+  #dynamicImage {
+    width: 100%; /* Ensures the image is responsive and scales with the frame */
+    height: auto; /* Keeps the image aspect ratio intact */
+  }
+  

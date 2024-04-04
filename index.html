@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="content">
+        <section class="theme-toggle">
+            <h2>Day/Night Mode Toggle</h2>
+            <button aria-label="Activate day mode" id="dayMode">Day Mode</button>
+            <button aria-label="Activate night mode" id="nightMode">Night Mode</button>
+        </section>
+
+        <section class="qa-section">
+            <h2>Question and Answer</h2>
+            <p>Q: Do you think we need to have a larger classroom?</p>
+            <button id="showAnswer">Show Answer</button>
+            <p id="answer" class="hidden">A: Definitely!</p>
+        </section>
+
+        <section class="image-hover">
+            <h2>Picture Change on Hover</h2>
+            <div id="pictureFrame">
+                <img src="https://nyunews.com/wp-content/uploads/2023/01/C7.jpg" alt="Classroom" id="dynamicImage">
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
